@@ -1,0 +1,105 @@
+<Application>
+  <Menus>
+    <action type="add">
+      <Menu UniqueID="DMM" Type="2" String="Daily Work Master Setup" Enabled="1" Checked="0" FatherUID="4378" Position="1" >
+        <Menus>
+          <action type="add">
+          <Menu Checked="0" Enabled="1" FatherUID="DMM" String="Daily_Work_Master_Steup Material Management" Type="1" Position="0" UniqueID="MMM" />
+          <Menu Checked="0" Enabled="1" FatherUID="DMM" String="Daily_Work_Master_Steup Production" Type="1" Position="1" UniqueID="PM" />
+          <Menu Checked="0" Enabled="1" FatherUID="DMM" String="Daily_Work_Master_Steup Maintenance_Engineering" Type="1" Position="2" UniqueID="MEM" />
+          <Menu Checked="0" Enabled="1" FatherUID="DMM" String="Daily_Work_Master_Steup Quality Control (QC" Type="1" Position="3" UniqueID="QCM" />
+          <Menu Checked="0" Enabled="1" FatherUID="DMM" String="Daily_Work_Master_Steup Quality Assurance" Type="1" Position="4" UniqueID="QAM" />
+          <Menu Checked="0" Enabled="1" FatherUID="DMM" String="Daily_Work_Master_Steup Administration" Type="1" Position="5" UniqueID="AOM" />
+          </action>
+        </Menus>
+      </Menu>
+      <Menu UniqueID="PDWS" Type="2" String="Production Daily Work Sheet" Enabled="1" Checked="0" FatherUID="4352" Position="1" >
+        <Menus>
+          <action type="add">
+            <Menu Checked="0" Enabled="1" FatherUID="PDWS" String="Daily_Work_Sheet Material Management" Type="1" Position="0" UniqueID="RMM" />
+            <Menu Checked="0" Enabled="1" FatherUID="PDWS" String="Daily_Work_Sheet Production" Type="1" Position="1" UniqueID="RP" />
+            <Menu Checked="0" Enabled="1" FatherUID="PDWS" String="Daily_Work_Maintenance and Eng." Type="1" Position="2" UniqueID="RME" />
+            <Menu Checked="0" Enabled="1" FatherUID="PDWS" String="Daily_Work_Sheet QC" Type="1" Position="3" UniqueID="RQC" />
+            <Menu Checked="0" Enabled="1" FatherUID="PDWS" String="Daily_Work_Sheet Quality Assurance" Type="1" Position="4" UniqueID="RQA" />
+            <Menu Checked="0" Enabled="1" FatherUID="PDWS" String="Daily_Work_Sheet Admin" Type="1" Position="5" UniqueID="RAO" />
+          </action>
+        </Menus>
+      </Menu>
+    </action>
+  </Menus>
+</Application>
+
+ <!-- <Menu String="SubHeader1" Enabled="1" Position="1" Checked="0" FatherUID="LEV1" Type="2" UniqueID="LEV21">
+    <Menus>
+      <action type="add">
+        <Menu String="Chil1" Enabled="1" Position="1" Checked="0" FatherUID="LEV21" Type="1" UniqueID="Child1"/>
+        <Menu String="Chil2" Enabled="1" Position="2" Checked="0" FatherUID="LEV21" Type="1" UniqueID="Child2"/>
+      </action>
+    </Menus>
+  </Menu>-->
+ <!-- 
+  <Menus>
+    <action type="add">
+
+      <Menu Checked="0" Enabled="1" FatherUID="43679" String="Material Management" Type="1" Position="0" UniqueID="DMM" />
+
+
+      <Menu Checked="0" Enabled="1" FatherUID="DMM" String="Material Management Master" Type="1" Position="0" UniqueID="MMM" />
+      <Menu Checked="0" Enabled="1" FatherUID="DMM" String="Production Master" Type="1" Position="1" UniqueID="PM" />
+      <Menu Checked="0" Enabled="1" FatherUID="DMM" String="Main and Engg Master" Type="1" Position="2" UniqueID="MEM" />
+      <Menu Checked="0" Enabled="1" FatherUID="DMM" String="Quality Control Master" Type="1" Position="3" UniqueID="QCM" />
+      <Menu Checked="0" Enabled="1" FatherUID="DMM" String="Quality Assurance Master" Type="1" Position="4" UniqueID="QAM" />
+      <Menu Checked="0" Enabled="1" FatherUID="DMM" String="Admin Operation Master" Type="1" Position="5" UniqueID="AOM" />
+
+
+      <Menu Checked="0" Enabled="1" FatherUID="43542" String="Report Material Management" Type="1" Position="0" UniqueID="RMM" />
+      <Menu Checked="0" Enabled="1" FatherUID="43542" String="Report Production" Type="1" Position="1" UniqueID="RP" />
+      <Menu Checked="0" Enabled="1" FatherUID="43542" String="Report Main and Engg" Type="1" Position="2" UniqueID="RME" />
+      <Menu Checked="0" Enabled="1" FatherUID="43542" String="Report Quality Control" Type="1" Position="3" UniqueID="RQC" />
+      <Menu Checked="0" Enabled="1" FatherUID="43542" String="Report Quality Assurance" Type="1" Position="4" UniqueID="RQA" />
+      <Menu Checked="0" Enabled="1" FatherUID="43542" String="Report Admin Operation" Type="1" Position="5" UniqueID="RAO" />
+
+
+      <Menu Checked="0" Enabled="1" FatherUID="14848" String="Production Planning Approval" Type="1" Position="5" UniqueID="ApprovalTemplate" />
+
+      <Menu Checked="0" Enabled="1" FatherUID="4352" String="Production Planning" Type="1" Position="3" UniqueID="ProdPlan1" />
+      <Menu Checked="0" Enabled="1" FatherUID="4352" String="LG BOM" Type="1" Position="1" UniqueID="LGBOM" />
+      <Menu Checked="0" Enabled="1" FatherUID="4352" String="Engineering Change Order" Type="1" Position="2" UniqueID="ECO" />
+    </action>
+  </Menus>
+
+
+
+<Application>
+  <Menus>
+    <action type="add">
+      <Menu String="Header" Enabled="1" Position="14" Checked="0" FatherUID="43679" Image="" Type="2" UniqueID="LEV1">
+        <Menus>
+          <action type="add">
+            <Menu String="SubHeader1" Enabled="1" Position="1" Checked="0" FatherUID="LEV1" Type="2" UniqueID="LEV21">
+              <Menus>
+                <action type="add">
+                  <Menu String="Chil1" Enabled="1" Position="1" Checked="0" FatherUID="LEV21" Type="1" UniqueID="Child1"/>
+                  <Menu String="Chil2" Enabled="1" Position="2" Checked="0" FatherUID="LEV21" Type="1" UniqueID="Child2"/>
+                </action>
+              </Menus>
+            </Menu>
+            <Menu String="SubHeader2" Enabled="1" Position="2" Checked="0" FatherUID="LEV1" Type="2" UniqueID="LEV22">
+              <Menus>
+                <action type="add">
+                  <Menu String="Child3" Enabled="1" Position="1" Checked="0" FatherUID="LEV22" Type="1" UniqueID="Child3"/>
+                  <Menu String="Child4" Enabled="1" Position="2" Checked="0" FatherUID="LEV22" Type="1" UniqueID="Child4"/>
+                </action>
+              </Menus>
+            </Menu>
+          </action>
+        </Menus>
+      </Menu>
+    </action>
+  </Menus>
+</Application>
+-->
+
+
+
+
